@@ -1,0 +1,10 @@
+version: '3'
+services:
+  voice_service:
+    container_name: voice_service
+    build:
+      context: .
+    ports:
+      - 8080:8080
+    volumes:
+      - ./local_dir:/app/local_dir
