@@ -2,7 +2,10 @@ module github.com/ArmanTulegenov/Guap_Golang_2024_VoiceService
 
 go 1.22.0
 
-require github.com/gin-gonic/gin v1.9.1
+require (
+	github.com/gin-gonic/gin v1.9.1
+	github.com/xfrr/goffmpeg v1.0.0
+)
 
 require (
 	github.com/bytedance/sonic v1.9.1 // indirect
